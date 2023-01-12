@@ -9,3 +9,9 @@ def index(request):
     # return render(request, 'pages/index.html')
     return render(request, 'pages/index.html')
 
+
+def gallery(request):
+
+    # Page from the theme 
+    # return render(request, 'pages/index.html')
+    return render(request, 'pages/gallery.html')
